@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="added">erfolgreich hinzugefügt</string>
+    <string name="cancel">Stornieren</string>
+    <string name="choose">Wählen Sie eine Nummer </string>
+    <string name="data_cleared">Daten werden gelöscht </string>
+    <string name="date">Datum </string>
+    <string name="delete">löschen </string>
+    <string name="display_name">Name </string>
+    <string name="duration">Dauer </string>
+    <string name="fake_number">Gefälschte Nummer </string>
+    <string name="hint_actual">Reelle Nummer</string>
+    <string name="hint_fake">Gefälschte Nummer</string>
+    <string name="hint_name"> Geben Sie den Namen angezeigt werden</string>
+    <string name="logs_cleared">Protokolle Gelöscht </string>
+    <string name="please_enter_all">Bitte geben Sie alle Details </string>
+    <string name="real_number">Reelle Nummer</string>
+    <string name="rusure">Sind Sie sicher, dass Sie alle Details zu löschen? </string>
+    <string name="rusurelogs"> Sind Sie sicher, dass Sie alle Protokolle zu löschen?</string>
+    <string name="same_number">Meme Fälschung und Real Nummer </string>
+    <string name="sensitivity">Empfindlichkeit </string>
+    <string name="tab1">Nummer hinzufügen </string>
+    <string name="tab2">Gespeicherte Daten </string>
+    <string name="tab3">Anrufliste </string>
+    <string name="time">Zeit</string>
+    <string name="title_activity_caller_screen">Anruferabfangliste </string>
+    <string name="title_activity_contact">Kontakt </string>
+    <string name="try_changing">(Versuchen Sie, die Empfindlichkeit der App nicht funktioniert) </string>
+    <string name="updated">Erfolgreich geupdated </string>
+    <string name="empty">Bereits Leer</string>
+    <string name="deleted">löschen</string>
+</resources>

@@ -1,0 +1,145 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.lakshparnami.callingpapa2.activities.CallerScreen">
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="#1976d2"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp">
+
+    <TextView
+        android:id="@+id/fakeName"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textSize="48sp"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@+id/fakeName"
+        android:weightSum="10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:text="@string/mob"
+            android:textSize="20sp"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fakeNumber"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:text="@string/fake_number"
+            android:textSize="20sp"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <FrameLayout
+            android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#0000"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_volume_up_white_24dp"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/speaker" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+         <ImageButton
+             android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#0000"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+            android:src="@drawable/ic_mic_off_white_24dp"
+            android:contentDescription="@string/app_name"
+             android:id="@+id/mic" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#0000"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_dialpad_white_24dp"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/dialpad" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#0000"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_pause_white_24dp"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/hold" />
+        </FrameLayout>
+</LinearLayout>
+</RelativeLayout>
+<RelativeLayout
+            android:background="#ffc5c5c5"
+            android:layout_weight="2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+<ImageView
+    android:background="#ffc5c5c5"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:scaleType="centerCrop"
+    android:id="@+id/contactImage"
+    android:src="@drawable/pic"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:contentDescription="@string/app_name" />
+            <android.support.design.widget.FloatingActionButton
+                app:backgroundTint="#ffff0000"
+                android:id="@+id/endCallButton"
+                android:src="@drawable/ic_call_end_white_36dp"
+                android:layout_marginBottom="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+</LinearLayout>

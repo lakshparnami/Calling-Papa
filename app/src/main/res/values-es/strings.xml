@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="added">agregado con éxito</string>
+    <string name="cancel">Cancelar</string>
+    <string name="choose">Elegir un número</string>
+    <string name="data_cleared">Borran los datos</string>
+    <string name="date">Fecha</string>
+    <string name="delete">Borrar</string>
+    <string name="display_name">Nombre</string>
+    <string name="duration">Duración</string>
+    <string name="fake_number">Número Falso </string>
+    <string name="hint_actual">Reelle Nummer</string>
+    <string name="hint_fake">Número Falso</string>
+    <string name="hint_name">Escriba el nombre que se mostrará</string>
+    <string name="logs_cleared">Borran los registros</string>
+    <string name="please_enter_all">Por favor, introduzca todos los detalles</string>
+    <string name="real_number">Número Real </string>
+    <string name="rusure">¿Está seguro de que desea borrar todos los datos? </string>
+    <string name="rusurelogs">¿Está seguro de que desea borrar todos los registros? </string>
+    <string name="same_number">Falso misma y el número real </string>
+    <string name="sensitivity">Sensibilidad</string>
+    <string name="tab1">Añade un número </string>
+    <string name="tab2">Los datos guardados </string>
+    <string name="tab3">Registro de llamadas </string>
+    <string name="time">Hora</string>
+    <string name="title_activity_caller_screen">La persona</string>
+    <string name="title_activity_contact">Contacto </string>
+    <string name="try_changing">(Prueba a cambiar la sensibilidad de la aplicación no funciona) </string>
+    <string name="updated">Actualizado correctamente </string>
+    <string name="empty">Ya vacio</string>
+    <string name="deleted">Borrar</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="?attr/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:transitionName="pic"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:maxHeight="80dp"
+            android:maxWidth="80dp"
+            android:minHeight="80dp"
+            android:minWidth="80dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/contactImage"
+            android:src="@drawable/pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#fff"
+                android:gravity="start"
+                android:text="@string/real_number"
+                android:textSize="12sp"
+                android:clickable="true"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <TextView
+                android:transitionName="real"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:text="@string/real_number"
+                android:textSize="12sp"
+                android:id="@+id/realtxt"
+                android:clickable="true"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:text="@string/fake_number"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <TextView
+                android:transitionName="fake"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:text="@string/fake_number"
+                android:id="@+id/faketxt"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:transitionName="name"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:id="@+id/nametxt"
+            android:text="@string/display_name"
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:minWidth="40dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true">
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_gravity="center"
+                android:transitionName="fab"
+                style="?android:attr/buttonBarButtonStyle"
+                android:minHeight="36dp"
+                android:maxWidth="36dp"
+                android:maxHeight="36dp"
+                android:minWidth="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editC"
+                android:src="@drawable/ic_mode_edit_white_24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/app_name" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_gravity="center"
+                android:transitionName="call"
+                style="?android:attr/buttonBarButtonStyle"
+                android:minHeight="36dp"
+                android:maxWidth="36dp"
+                android:maxHeight="36dp"
+                android:minWidth="36dp"
+                android:id="@+id/callC"
+                android:src="@drawable/ic_call_white_24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_gravity="center"
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/delC"
+                android:minHeight="36dp"
+                android:maxWidth="36dp"
+                android:maxHeight="36dp"
+                android:minWidth="36dp"
+                android:src="@drawable/ic_delete_white_24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

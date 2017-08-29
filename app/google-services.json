@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "8167000922",
+    "firebase_url": "https://calling-papa.firebaseio.com",
+    "project_id": "calling-papa",
+    "storage_bucket": "calling-papa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8167000922:android:418a5ebcb96857f3",
+        "android_client_info": {
+          "package_name": "com.lakshparnami.callingpapa2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8167000922-p4v070i5b9dao1eeui30b1qq686nf2gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lakshparnami.callingpapa2",
+            "certificate_hash": "6D7B9FD8339B3D2F06918C11FD906E4380E13BE3"
+          }
+        },
+        {
+          "client_id": "8167000922-bmne225vsvhl57am8n4s0ajljub8d1ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFX_7jdLi7kYhymFxrOeNQnYne748OK2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

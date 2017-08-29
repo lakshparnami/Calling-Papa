@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lakshparnami.callingpapa2.activities.Contact"
+    tools:showIn="@layout/activity_contact">
+    <android.support.v7.widget.CardView
+        android:padding="5dp"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        android:layout_margin="5dp"
+        app:cardUseCompatPadding="true"
+        app:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:text="@string/display_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#fff"
+                android:text="@string/fake_number"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:transitionName="name"
+                android:textColor="#fff"
+                android:id="@+id/name"
+                android:layout_margin="5dp"
+                android:text="@string/display_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:transitionName="fake"
+                android:textColor="#fff"
+                android:id="@+id/fake"
+                android:text="@string/fake_number"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        </LinearLayout>
+            <ImageButton
+                android:transitionName="call"
+                android:id="@+id/callC"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                app:layout_collapseMode="pin"
+                android:background="@drawable/pick_contact"
+                android:src="@drawable/ic_call_white_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/display_name" />
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="5dp"
+        android:layout_margin="5dp"
+        app:elevation="8dp"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/recyclerView"
+            android:paddingBottom="50dp"
+            android:clipToPadding="false"
+            android:alwaysDrawnWithCache="true"
+            android:persistentDrawingCache="all"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

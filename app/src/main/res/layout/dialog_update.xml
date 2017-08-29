@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/linearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="?attr/colorPrimary"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:padding="5dp"
+            android:maxLength="15"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/real_number"
+            android:background="#1fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:maxHeight="50dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/real"/>
+        <View
+            android:alpha="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:textColorHint="#ffff"
+                android:maxLength="15"
+                android:textColor="?attr/colorPrimaryDark"
+                android:inputType="phone"
+                android:background="#0fff"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:maxHeight="50dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:id="@+id/fakecode"/>
+            <include layout="@layout/vertical_divider"/>
+            <AutoCompleteTextView
+                android:layout_margin="1dp"
+                android:padding="5dp"
+                android:textColorHint="#5fff"
+                android:maxLength="15"
+                android:textColor="@color/colorPrimaryDark"
+                android:inputType="phone"
+                android:hint="@string/hint_fake"
+                android:background="#0fff"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:focusable="true"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:maxHeight="50dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:id="@+id/fake"
+                android:imeOptions="actionNext"
+                android:nextFocusUp="@+id/name"
+                android:nextFocusLeft="@+id/name"
+                android:nextFocusDown="@+id/name"
+                android:nextFocusRight="@+id/name"
+                android:nextFocusForward="@+id/name"/>
+            <include layout="@layout/vertical_divider"/>
+            <ImageButton
+                android:layout_margin="1dp"
+                android:minHeight="50dp"
+                android:minWidth="50dp"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:background="@drawable/pick_contact"
+                android:src="@drawable/ic_person_white_24dp"
+                android:id="@+id/pick_fake"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <View
+            android:alpha="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:imeOptions="actionDone"
+                android:focusable="true"
+                android:textColorHint="#5fff"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:inputType="textPersonName"
+                android:hint="@string/hint_name"
+                android:background="#0fff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:id="@+id/name"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+

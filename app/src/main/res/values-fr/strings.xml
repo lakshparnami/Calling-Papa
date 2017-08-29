@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="added">ajouté avec succès de</string>
+    <string name="cancel">Annuler</string>
+    <string name="choose">Choisir un numéro</string>
+    <string name="data_cleared">Les données effacées</string>
+    <string name="date">Date</string>
+    <string name="delete">Effacer</string>
+    <string name="display_name">Nom</string>
+    <string name="duration">Durée </string>
+    <string name="fake_number">Faux Numéro </string>
+    <string name="hint_actual">Nombre réel</string>
+    <string name="hint_fake">Faux Numéro</string>
+    <string name="hint_name">Tapez le nom à afficher </string>
+    <string name="logs_cleared">Journaux effacés </string>
+    <string name="please_enter_all">S\'il vous plaît entrer tous les détails </string>
+    <string name="real_number">Nombre réel </string>
+    <string name="rusure">Êtes-vous sûr de vouloir supprimer tous les détails? </string>
+    <string name="rusurelogs">Êtes-vous sûr de vouloir supprimer tous les journaux?</string>
+    <string name="same_number">Même Faux et Nombre réel </string>
+    <string name="sensitivity">Sensibilité </string>
+    <string name="tab1">Ajouter un numéro </string>
+    <string name="tab2">Les données sauvegardées </string>
+    <string name="tab3">Journal d\'appel </string>
+    <string name="time">Temps</string>
+    <string name="title_activity_caller_screen">Ecran de l\'appelant</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="try_changing">(Essayez de changer la sensibilité de l\'application ne fonctionne pas) </string>
+    <string name="updated">Mis à jour avec succés </string>
+    <string name="empty">Déjà vide</string>
+    <string name="deleted">Effacer</string>
+</resources>
