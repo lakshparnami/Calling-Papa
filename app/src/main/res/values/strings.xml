@@ -30,9 +30,6 @@
     <string name="tab2">Saved Data</string>
     <string name="tab3">Call Log</string>
     <string name="empty">Already Empty</string>
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8202164781979227/9384435592</string>
-    <string name="app_add_id" translatable="false">ca-app-pub-8202164781979227~6017656790</string>
-    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-8202164781979227/5512639194</string>
     <string-array name="CountryCodes" translatable="false">
         <item>93,AF</item>
         <item>355,AL</item>
